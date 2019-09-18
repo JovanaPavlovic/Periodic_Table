@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" href="index.css">
+  
+</head>
+
+<body>
+    <div class="container">
+        <h2>Periodic Table of Elements</h2>
+
+            <div class="btns">
+                <button class="get-all button-primary">Periodic Table</button>
+                <button class="get-nonmetal button-primary">Nonmetals</button>
+                <button class="get-metal button-primary">Metals</button>
+                <button class="get-metaloids button-primary">Metaloids</button>
+                <button class="get-actinides button-primary">Actinides</button>
+                <button class="get-lanthanides button-primary">Lanthanides</button>
+        
+            </div>
+            <div id="output">
+
+                <table class="u-full-width myTb">
+                    <thead>
+                        <tr>
+                            <th><button id="search-nm">Atomic Number</button></th>
+                            
+                            <th><button id="sortName">Element Name</button></th>
+
+                            <th><button id="sortSym">Symbol</button></th>
+
+                            <th><button>Category</button></th>
+
+                            <th><button>Atomic mass</button></th>
+
+                            <th><button>Boiling point</button></th>
+
+                            <th><button>Melting point</button></th>
+
+                            <th><button>Density</button></th>
+
+                            <th><button>Color</button></th>
+
+
+                            <th><button>Appearance</button></th>
+
+                            <th><button>Discovered by</button></th>
+
+                            <th><button>Agregate state</button></th>
+
+                        </tr>
+                    </thead>
+                    <tbody id="elements">
+                        
+                      
+                    </tbody>
+                </table>
+            </div>
+    </div>
+
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
